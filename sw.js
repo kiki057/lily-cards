@@ -3,7 +3,7 @@
 // starts from the saved copy (instant, works in airplane mode or on weak Wi-Fi).
 // When there is internet, a fresh copy is fetched quietly in the background and
 // used the next time the app opens.
-const V = 'lily-cards-v5';
+const V = 'lily-cards-v6';
 const FILES = ['./', './index.html', './manifest.webmanifest', './apple-touch-icon.png', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', e => {
